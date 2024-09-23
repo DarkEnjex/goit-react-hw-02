@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.goodBtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s ease;
+
+    &:hover {
+        background-color: green;
+    }
+}
+
+.neutralBtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s ease;
+
+    &:hover {
+        background-color: rgb(175, 125, 8);
+    }
+}
+
+.badBtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s ease;
+
+    &:hover {
+        background-color: rgb(209, 4, 4);
+    }
+}
+
+.resetBtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s ease;
+
+    &:hover {
+        background-color: rgb(16, 55, 172);
+    }
+}
